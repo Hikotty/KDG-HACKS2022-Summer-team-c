@@ -1,0 +1,332 @@
+[
+    {
+        "id": "11",
+        "title": "All Day Event",
+        "start": "2016-01-01",
+        "backgroundColor": "#3498db",
+        "borderColor": "#3498db" 
+    },{
+        "id": "12",
+        "title": "Long Event",
+        "start": "2016-01-07",
+        "end": "2016-01-10",
+        "backgroundColor": "#8e44ad",
+        "borderColor": "#8e44ad" 
+    },{
+        "id": "13",
+        "title": "Meeting",
+        "start": "2016-01-09 10:30:00",
+        "end": "2016-01-09 12:30:00",
+        "backgroundColor": "#c0392b",
+        "borderColor": "#c0392b" 
+    },{
+        "id": "14",
+        "title": "Lunch",
+        "start": "2016-01-09 12:00:00",
+        "backgroundColor": "#1abc9c",
+        "borderColor": "#1abc9c" 
+    },{
+        "id": "15",
+        "title": "Event With Image",
+        "start": "2016-01-19 12:00:00",
+        "image":"event1.jpg",
+        "backgroundColor": "#1abc9c",
+        "borderColor": "#1abc9c" 
+    },{
+        "id": "21",
+        "title": "All Day Event",
+        "start": "2016-02-01",
+        "backgroundColor": "#3498db",
+        "borderColor": "#3498db" 
+    },{
+        "id": "22",
+        "title": "Long Event",
+        "start": "2016-02-07",
+        "end": "2016-02-10",
+        "backgroundColor": "#8e44ad",
+        "borderColor": "#8e44ad" 
+    },{
+        "id": "23",
+        "title": "Meeting",
+        "start": "2016-02-09 10:30:00",
+        "end": "2016-02-09 12:30:00",
+        "backgroundColor": "#c0392b",
+        "borderColor": "#c0392b" 
+    },{
+        "id": "24",
+        "title": "Lunch",
+        "start": "2016-02-09 12:00:00",
+        "backgroundColor": "#1abc9c",
+        "borderColor": "#1abc9c" 
+    },{
+        "id": "31",
+        "title": "All Day Event",
+        "start": "2016-03-01",
+        "backgroundColor": "#3498db",
+        "borderColor": "#3498db" 
+    },{
+        "id": "32",
+        "title": "Long Event",
+        "start": "2016-03-07",
+        "end": "2016-03-10",
+        "backgroundColor": "#8e44ad",
+        "borderColor": "#8e44ad" 
+    },{
+        "id": "33",
+        "title": "Meeting",
+        "start": "2016-03-09 10:30:00",
+        "end": "2016-03-09 12:30:00",
+        "backgroundColor": "#c0392b",
+        "borderColor": "#c0392b" 
+    },{
+        "id": "34",
+        "title": "Lunch",
+        "start": "2016-03-09 12:00:00",
+        "backgroundColor": "#1abc9c",
+        "borderColor": "#1abc9c" 
+    },{
+        "id": "41",
+        "title": "All Day Event",
+        "start": "2016-04-01",
+        "backgroundColor": "#3498db",
+        "borderColor": "#3498db" 
+    },{
+        "id": "42",
+        "title": "Long Event",
+        "start": "2016-04-07",
+        "end": "2016-04-10",
+        "backgroundColor": "#8e44ad",
+        "borderColor": "#8e44ad" 
+    },{
+        "id": "43",
+        "title": "Meeting",
+        "start": "2016-04-09 10:30:00",
+        "end": "2016-04-09 12:30:00",
+        "backgroundColor": "#c0392b",
+        "borderColor": "#c0392b" 
+    },{
+        "id": "44",
+        "title": "Lunch",
+        "start": "2016-04-09 12:00:00",
+        "backgroundColor": "#1abc9c",
+        "borderColor": "#1abc9c" 
+    },{
+        "id": "51",
+        "title": "All Day Event",
+        "start": "2016-05-05",
+        "backgroundColor": "#3498db",
+        "borderColor": "#3498db" 
+    },{
+        "id": "52",
+        "title": "Long Event",
+        "start": "2016-05-10",
+        "end": "2016-05-14",
+        "backgroundColor": "#8e44ad",
+        "borderColor": "#8e44ad" 
+    },{
+        "id": "53",
+        "title": "Meeting",
+        "start": "2016-05-12 10:30:00", 
+        "end": "2016-05-13 12:30:00",
+        "allDay": false, 
+        "backgroundColor": "#c0392b",
+        "borderColor": "#c0392b" 
+    },{
+        "id": "54",
+        "title": "Lunch",
+        "start": "2016-05-13 12:00:00",
+        "backgroundColor": "#1abc9c",
+        "borderColor": "#1abc9c" 
+    },{
+        "id": "61",
+        "title": "All Day Event",
+        "start": "2016-06-01",
+        "backgroundColor": "#3498db",
+        "borderColor": "#3498db" 
+    },{
+        "id": "62",
+        "title": "Long Event",
+        "start": "2016-06-07",
+        "end": "2016-06-10",
+        "backgroundColor": "#8e44ad",
+        "borderColor": "#8e44ad" 
+    },{
+        "id": "63",
+        "title": "Meeting",
+        "start": "2016-06-09 10:30:00",
+        "end": "2016-06-09 12:30:00",
+        "backgroundColor": "#c0392b",
+        "borderColor": "#c0392b" 
+    },{
+        "id": "64",
+        "title": "Lunch",
+        "start": "2016-06-09 12:00:00",
+        "backgroundColor": "#1abc9c",
+        "borderColor": "#1abc9c" 
+    },{
+        "id": "71",
+        "title": "All Day Event",
+        "start": "2016-07-01",
+        "backgroundColor": "#3498db",
+        "borderColor": "#3498db" 
+    },{
+        "id": "72",
+        "title": "Long Event",
+        "start": "2016-07-07",
+        "end": "2016-07-10",
+        "backgroundColor": "#8e44ad",
+        "borderColor": "#8e44ad" 
+    },{
+        "id": "73",
+        "title": "Meeting",
+        "start": "2016-07-09 10:30:00",
+        "end": "2016-07-09 12:30:00",
+        "backgroundColor": "#c0392b",
+        "borderColor": "#c0392b" 
+    },{
+        "id": "74",
+        "title": "Lunch",
+        "start": "2016-07-09 12:00:00",
+        "backgroundColor": "#1abc9c",
+        "borderColor": "#1abc9c" 
+    },{
+        "id": "81",
+        "title": "All Day Event",
+        "start": "2016-08-01",
+        "backgroundColor": "#3498db",
+        "borderColor": "#3498db" 
+    },{
+        "id": "82",
+        "title": "Long Event",
+        "start": "2016-08-07",
+        "end": "2016-08-10",
+        "backgroundColor": "#8e44ad",
+        "borderColor": "#8e44ad" 
+    },{
+        "id": "83",
+        "title": "Meeting",
+        "start": "2016-08-09 10:30:00",
+        "end": "2016-08-09 12:30:00",
+        "backgroundColor": "#c0392b",
+        "borderColor": "#c0392b" 
+    },{
+        "id": "84",
+        "title": "Lunch",
+        "start": "2016-08-09 12:00:00",
+        "backgroundColor": "#1abc9c",
+        "borderColor": "#1abc9c" 
+    },{
+        "id": "91",
+        "title": "All Day Event",
+        "start": "2016-09-01",
+        "backgroundColor": "#3498db",
+        "borderColor": "#3498db" 
+    },{
+        "id": "92",
+        "title": "Long Event",
+        "start": "2016-09-07",
+        "end": "2016-09-10",
+        "backgroundColor": "#8e44ad",
+        "borderColor": "#8e44ad" 
+    },{
+        "id": "93",
+        "title": "Meeting",
+        "start": "2016-09-09 10:30:00",
+        "end": "2016-09-09 12:30:00",
+        "backgroundColor": "#c0392b",
+        "borderColor": "#c0392b" 
+    },{
+        "id": "94",
+        "title": "Lunch",
+        "start": "2016-09-09 12:00:00",
+        "backgroundColor": "#1abc9c",
+        "borderColor": "#1abc9c" 
+    },{
+        "id": "101",
+        "title": "All Day Event",
+        "start": "2016-10-01",
+        "backgroundColor": "#3498db",
+        "borderColor": "#3498db" 
+    },{
+        "id": "102",
+        "title": "Long Event",
+        "start": "2016-10-07",
+        "end": "2016-10-10",
+        "backgroundColor": "#8e44ad",
+        "borderColor": "#8e44ad" 
+    },{
+        "id": "103",
+        "title": "Meeting",
+        "start": "2016-10-09 10:30:00",
+        "end": "2016-10-09 12:30:00",
+        "backgroundColor": "#c0392b",
+        "borderColor": "#c0392b" 
+    },{
+        "id": "104",
+        "title": "Lunch",
+        "start": "2016-10-09 12:00:00",
+        "backgroundColor": "#1abc9c",
+        "borderColor": "#1abc9c" 
+    },{
+        "id": "111",
+        "title": "All Day Event",
+        "start": "2016-11-01",
+        "backgroundColor": "#3498db",
+        "borderColor": "#3498db" 
+    },{
+        "id": "112",
+        "title": "Long Event",
+        "start": "2016-11-07",
+        "end": "2016-11-10",
+        "backgroundColor": "#8e44ad",
+        "borderColor": "#8e44ad" 
+    },{
+        "id": "113",
+        "title": "Meeting",
+        "start": "2016-11-09 10:30:00",
+        "end": "2016-11-09 12:30:00",
+        "backgroundColor": "#c0392b",
+        "borderColor": "#c0392b" 
+    },{
+        "id": "114",
+        "title": "Lunch",
+        "start": "2016-11-09 12:00:00",
+        "backgroundColor": "#1abc9c",
+        "borderColor": "#1abc9c" 
+    },{
+        "id": "121",
+        "title": "All Day Event",
+        "start": "2016-12-01",
+        "backgroundColor": "#3498db",
+        "borderColor": "#3498db" 
+    },{
+        "id": "122",
+        "title": "Long Event not all day",
+        "start": "2016-12-07 08:30:00",
+        "end": "2016-12-10 14:30:00",
+        "allDay": false,
+        "backgroundColor": "#8e44ad",
+        "borderColor": "#8e44ad" 
+    },{
+        "id": "123",
+        "title": "Meeting not all day",
+        "start": "2016-12-09 10:30:00",
+        "end": "2016-12-10 12:30:00",
+        "allDay": false,
+        "backgroundColor": "#c0392b",
+        "borderColor": "#c0392b" 
+    },{
+        "id": "124",
+        "title": "Lunch",
+        "start": "2016-12-09 12:00:00",
+        "backgroundColor": "#1abc9c",
+        "borderColor": "#1abc9c" 
+    },{
+        "id": "125",
+        "title": "Event With Image",
+        "start": "2016-12-19 12:00:00",
+        "image":"event2.jpg",
+        "backgroundColor": "#1abc9c",
+        "borderColor": "#1abc9c" 
+    }
+]

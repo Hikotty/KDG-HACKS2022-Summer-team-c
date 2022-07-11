@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Document</title>
+
+</head>
+<body>
+<main>
+    <div id="start-button" class="start-button">
+        <h1>Become<br>Muscle</h1>
+        <button class="start-text">START!</button>
+    </div>
+    <div class="timer" id="timer-wrap">
+        <p id="timer">3</p>
+    </div>
+    <div class="video-wrap">
+        <div class="orange" id="orange"></div>
+        <img class="wave-wrap" id="wave-wrap" src="img/wave.svg">
+        <video id="video"></video>
+        <div class="sub-wrap" id="sub-wrap">
+            <div class="count-wrap">
+                <p>0</p>
+            </div>
+            <div class="time-wrap">
+                <p>Time<br><span id="timer2">30</span></p>
+            </div>
+        </div>
+    </div>
+    <div id="end-wrap" class="end-wrap">
+        <h1>Time Up!</h1>
+        <p>Your score: 1</p>
+        <a href="index.html">ホームに戻る</a>
+    </div>
+
+</main>
+<script>
+    document.getElementById("start-button").onclick = function () {
+        this.classList.toggle("start");
+        var sub_wrap = document.getElementById("sub-wrap");
+        var end_wrap = document.getElementById("end-wrap");
+        var count_wrap = document.getElementById("timer-wrap")
+        count_wrap.classList.add("start");
+
+        window.setTimeout(function(){
+            count_wrap.classList.add("end");
+            sub_wrap.classList.add("start");
+            document.getElementById("wave-wrap").classList.add("start")
+            document.getElementById("orange").style.display = "none"
+        }, 3000);
+
+        window.setTimeout(function(){
+            sub_wrap.classList.remove("start");
+            end_wrap.classList.add("end");
+        }, 30000);
+    };
+
+    window.onload=function(){
+        document.querySelector('#start-button').addEventListener('click',function(e){
+            e.preventDefault();
+            var count = 3;
+            var id = setInterval(function(){
+                count--;
+                document.querySelector('#timer').textContent=count;
+                if(count <= 1) clearInterval(id);
+            },1000);
+
+            e.preventDefault();
+            var count2 = 30;
+            var id2 = setInterval(function(){
+                count2--;
+                document.querySelector('#timer2').textContent=count2;
+                if(count <= 1) clearInterval(id);
+            },1000);
+        });
+
+    }
+
+
+
+    const video = document.getElementById("video")
+    navigator.mediaDevices.getUserMedia({
+        video: true,
+        audio: false,
+    }).then(stream => {
+        video.srcObject = stream;
+        video.play()
+    }).catch(e => {
+        console.log(e)
+    })
+</script>
+</body>

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="css/fullcalendar.min.css" rel="stylesheet" />
+    <script src="js/moment.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/fullcalendar.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        /* initialize the calendar
+             -----------------------------------------------------------------*/
+        //Date for the calendar events (dummy data)
+        var date = new Date();
+        var d = date.getDate(),
+          m = date.getMonth(),
+          y = date.getFullYear();
+        $("#calendar").fullCalendar({
+          header: {
+            left: "prev,next today",
+            center: "title",
+            right: "month,agendaWeek,agendaDay",
+          },
+          editable: true,
+          eventLimit: false, // allow "more" link when too many events
+          events: [
+            {
+              title: "ダイエット初日",
+              start: new Date(y, m, d),
+              image: "event1.png",
+              backgroundColor: "red", //red
+              borderColor: "red", //red
+            },
+            {
+              title: "腹筋50回！",
+              start: new Date(y, m, d + 1),
+              image: "event1.png",
+              backgroundColor: "#f56954", //red
+              borderColor: "#f56954", //red
+            },
+            {
+              title: "腹筋50回！",
+              start: new Date(y, m, d + 2),
+              image: "event1.png",
+              backgroundColor: "#f56954", //red
+              borderColor: "#f56954", //red
+            },
+            {
+              title: "腹筋50回！",
+              start: new Date(y, m, d + 3),
+              image: "event1.png",
+              backgroundColor: "#f56954", //red
+              borderColor: "#f56954", //red
+            },
+            {
+              title: "腹筋50回！",
+              start: new Date(y, m, d + 4),
+              image: "event1.png",
+              backgroundColor: "#f56954", //red
+              borderColor: "#f56954", //red
+            },
+            {
+              title: "腹筋50回！",
+              start: new Date(y, m, d + 5),
+              image: "event1.png",
+              backgroundColor: "#f56954", //red
+              borderColor: "#f56954", //red
+            },
+            {
+              title: "腹筋50回！",
+              start: new Date(y, m, d + 6),
+              image: "event1.png",
+              backgroundColor: "#f56954", //red
+              borderColor: "#f56954", //red
+            },
+            {
+              title: "ひとやすみ",
+              start: new Date(y, m, d + 7),
+              image: "event5.png",
+              backgroundColor: "darkblue", //red
+              borderColor: "darkblue", //red
+            },
+            {
+              title: "腹筋50回！",
+              start: new Date(y, m, d + 8),
+              image: "event1.png",
+              backgroundColor: "#f56954", //red
+              borderColor: "#f56954", //red
+            },
+            {
+              title: "腹筋50回！",
+              start: new Date(y, m, d + 9),
+              image: "event1.png",
+              backgroundColor: "#f56954", //red
+              borderColor: "#f56954", //red
+            },
+            {
+              title: "腹筋50回！",
+              start: new Date(y, m, d + 10),
+              image: "event1.png",
+              backgroundColor: "#f56954", //red
+              borderColor: "#f56954", //red
+            },
+            {
+              title: "腹筋50回！",
+              start: new Date(y, m, d + 11),
+              image: "event1.png",
+              backgroundColor: "#f56954", //red
+              borderColor: "#f56954", //red
+            },
+            {
+              title: "腹筋50回！",
+              start: new Date(y, m, d + 12),
+              image: "event1.png",
+              backgroundColor: "#f56954", //red
+              borderColor: "#f56954", //red
+            },
+            {
+              title: "腹筋50回！",
+              start: new Date(y, m, d + 13),
+              image: "event1.png",
+              backgroundColor: "#f56954", //red
+              borderColor: "#f56954", //red
+            },
+            {
+              title: "ひとやすみ",
+              start: new Date(y, m, d + 14),
+              image: "event3.png",
+              backgroundColor: "darkblue", //red
+              borderColor: "darkblue", //red
+            },
+            {
+              title: "腹筋50回！",
+              start: new Date(y, m, d + 15),
+              image: "event1.png",
+              backgroundColor: "#f56954", //red
+              borderColor: "#f56954", //red
+            },
+            {
+              title: "腹筋50回！",
+              start: new Date(y, m, d + 16),
+              image: "event1.png",
+              backgroundColor: "#f56954", //red
+              borderColor: "#f56954", //red
+            },
+            {
+              title: "腹筋50回！",
+              start: new Date(y, m, d + 17),
+              image: "event1.png",
+              backgroundColor: "#f56954", //red
+              borderColor: "#f56954", //red
+            },
+            {
+              title: "腹筋50回！",
+              start: new Date(y, m, d + 18),
+              image: "event1.png",
+              backgroundColor: "#f56954", //red
+              borderColor: "#f56954", //red
+            },
+            {
+              title: "腹筋50回！",
+              start: new Date(y, m, d + 19),
+              image: "event1.png",
+              backgroundColor: "#f56954", //red
+              borderColor: "#f56954", //red
+            },
+            {
+              title: "腹筋50回！",
+              start: new Date(y, m, d + 20),
+              image: "event1.png",
+              backgroundColor: "#f56954", //red
+              borderColor: "#f56954", //red
+            },
+            {
+              title: "ひとやすみ",
+              start: new Date(y, m, d + 21),
+              image: "event4.png",
+              backgroundColor: "darkblue", //red
+              borderColor: "darkblue", //red
+            },
+            {
+              title: "腹筋50回！",
+              start: new Date(y, m, d + 22),
+              image: "event1.png",
+              backgroundColor: "#f56954", //red
+              borderColor: "#f56954", //red
+            },
+          ],
+          loading: function (bool) {
+            $("#loading").toggle(bool);
+          },
+          eventMouseover: function (event, element) {
+            $(
+              '<p class="tooltip" style="background-color:' +
+                event.backgroundColor +
+                '"></p>'
+            )
+              .text(event.title)
+              .appendTo("body")
+              .fadeIn("fast");
+          },
+          eventMouseout: function (event, element) {
+            $(".tooltip").remove();
+          },
+          eventRender: function (event, element) {
+            if (event.image) {
+              if (element.find("span.fc-time").length) {
+                element
+                  .find("span.fc-time")
+                  .before(
+                    $(
+                      '<span class="fc-image"><img src=' +
+                        event.image +
+                        "></span>"
+                    )
+                  );
+              } else {
+                element
+                  .find("span.fc-title")
+                  .before(
+                    $(
+                      '<span class="fc-image"><img src=' +
+                        event.image +
+                        "></span>"
+                    )
+                  );
+              }
+            }
+
+            element.mousemove(function (e) {
+              var mousex = e.pageX + 10; //Get X coordinates
+              var mousey = e.pageY + 5; //Get Y coordinates
+              $(".tooltip").css({ top: mousey, left: mousex });
+            });
+          },
+        });
+      });
+    </script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 14px;
+        background-image: url("night.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+      }
+      #script-warning {
+        display: none;
+        background: #eee;
+        /*background: white;*/
+        border-bottom: 1px solid white;
+        padding: 0 10px;
+        line-height: 40px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 12px;
+        color: red;
+      }
+
+      #loading {
+        display: none;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+
+      #calendar {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 0 10px;
+      }
+      /*Custome Stye Calender*/
+
+      .fc-event {
+        border-radius: 1px !important;
+        font-weight: 300 !important;
+        line-height: 1.5 !important;
+      }
+      .fc-image {
+        display: block;
+        height: 50px;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+      }
+      .fc-image img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        height: 100%;
+        width: 70%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+      .tooltip {
+        width: 145px;
+        word-wrap: break-word;
+        display: none;
+        position: absolute;
+        border: 1px solid #333;
+        /*background-color:#161616;*/
+        border-radius: 5px;
+        padding: 10px;
+        /*color:#fff;*/
+        color: white;
+        font-size: 12px Arial;
+        z-index: 9999;
+      }
+      .img {
+        position: absolute;
+        top: -50px;
+        left: 0px;
+        width: 800px;
+        height: 800px;
+      }
+      .wrapper {
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+      .home-button {
+        position: absolute;
+        top: 0;
+        max-width: 130px;
+        background: rgb(227, 233, 235);
+        border-radius: 5px;
+        font-size: 1rem;
+        padding: 2px 10px;
+        margin: 10px;
+      }
+      .home-button:hover {
+        background: rgb(173, 181, 184);
+      }
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="hanabiSvg/hanabi_orangeBig.svg"
+      class="img"
+      width="400"
+      height="400"
+    />
+    <div id="calendar"></div>
+    <div class="wrapper">
+      <div class="home-button">
+        <a
+          href="https://delightful-cliff-0bb102800.1.azurestaticapps.net/index.html"
+          >ホームに戻る</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
