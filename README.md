@@ -36,3 +36,6 @@ FW：p5.js, ml5.js, SkyWay
 - 渡邊優貴(Watanabe Yuki）電気通信大学情報理工学研究科機械知能システム学専攻M1
 
 (五十音順)
+
+## 謝辞
+本作品はKDG HACKS 2022 Summerに提出し、最優秀賞を受賞した。
